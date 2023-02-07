@@ -5,8 +5,20 @@
 #background {
     height: 725px;
 }
+.home-title {
+    font-family: "monsterrat";
+    font-size: 2em;
+    margin-top: 10px;
+}
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: "monsterrat";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -14,25 +26,33 @@ header {
 nav a:hover {
     background-color: black;
 }
-.book{
+.book {
     background-color: rgb(255, 178, 178);
 }
-.join{
+.join {
     background-color: rgb(255, 152, 152)
 }
-.book:hover{
+.book:hover {
     background-color: rgb(200, 0, 255)
 }
-.join:hover{
+.join:hover {
     background-color: rgb(0, 200, 255)
 }
-#background{
+#background {
     background-color: rgb(251, 255, 0)
 }
-.msg{
+.msg p {
+    padding-bottom: 15px;
+}
+.msg h2 {
+    font-family: "mosterrat";
+}
+.msg {
+    padding: 35px;
     background-color: rgb(123, 178, 255)
 }
 footer{
+    padding: 25px 50px;
     background-color: rgb(154, 126, 255)
 }
 footer p {
@@ -40,6 +60,9 @@ footer p {
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -49,6 +72,9 @@ footer p a:hover{
 }
 nav a {
     text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    padding: 35px;
 }
 .button-box {
     text-align: center;
@@ -58,4 +84,34 @@ main section {
 }
 #hero.png {
     width: 80px
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.home-title {
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+footer {
+    margin-top: 200px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
 }
